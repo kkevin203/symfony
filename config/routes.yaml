@@ -1,0 +1,7 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+Contact:
+    path: /contact
+    controller: App\Controller\DefaultController::contact
